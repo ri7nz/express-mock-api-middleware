@@ -1,5 +1,5 @@
 {
-  "name": "express-mock-api-middleware",
+  "name": "@techstark/express-mock-api-middleware",
   "version": "1.0.5",
   "description": "Express middleware for mocking restful APIs",
   "main": "lib/index.js",
@@ -8,6 +8,7 @@
     "build": "babel src -d lib",
     "prepack": "npm run build"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TechStark/express-mock-api-middleware.git"
